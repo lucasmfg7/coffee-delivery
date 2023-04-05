@@ -36,7 +36,12 @@ export const CartButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
+    transition: all 200ms ease-in-out;
+  }
+
+  &:not(:hover) {
+    transform: scale(1);
     transition: all 200ms ease-in-out;
   }
 
