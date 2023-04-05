@@ -18,4 +18,14 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: ${({ theme }) => theme.colors.base.title};
+    margin: 0;
+  }
+
+  p {
+    color: ${({ theme }) => theme.colors.base.subtitle};
+    margin: 0;
+  }
 `;
