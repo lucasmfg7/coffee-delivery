@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   max-width: 70rem;
   margin: 0 auto;
-  padding: 1.5rem 0 2rem;
+  padding: 1.5rem 0;
 `;
 
 export const ButtonContainer = styled.div`
